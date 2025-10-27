@@ -61,23 +61,9 @@ wallet-checker/
 └── README.md           # This documentation
 ```
 
-## Browser Compatibility
-
-- Modern browsers with ES6+ support
-- Clipboard API support (with fallback for older browsers)
-- Responsive design works on all screen sizes
-
 ## Development
 
 To run locally:
 1. Clone or download this repository
 2. Open `index.html` in a web browser
 3. No build process or dependencies required
-
-## Contributing
-
-Feel free to submit issues, feature requests, or pull requests to improve this tool.
-
-## License
-
-This project is open source and available under the MIT License.
