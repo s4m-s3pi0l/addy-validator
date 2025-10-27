@@ -3,13 +3,13 @@ echo Setting up Git repository for Solana Address Validator...
 echo.
 
 REM Initialize git repository
-git init
+"C:\Program Files\Git\bin\git.exe" init
 
 REM Add all files
-git add .
+"C:\Program Files\Git\bin\git.exe" add .
 
 REM Create initial commit
-git commit -m "Initial commit: Solana wallet address validator
+"C:\Program Files\Git\bin\git.exe" commit -m "Initial commit: Solana wallet address validator
 
 - Clean, modern UI inspired by Solscan.io
 - Base58 validation for Solana addresses

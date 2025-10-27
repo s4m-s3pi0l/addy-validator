@@ -4,7 +4,7 @@ A simple, user-friendly tool to validate Solana wallet addresses and check if th
 
 ## Features
 
-- ✅ **Real-time validation** - Validates addresses as you type
+- ✅ **Manual validation** - Click to validate addresses
 - 🔍 **Base58 validation** - Ensures addresses contain only valid base58 characters
 - 📏 **Length verification** - Checks for correct 32-byte (44 character) length
 - 🚫 **Invalid character detection** - Warns about confusing characters (0, O, I, l)
@@ -16,7 +16,7 @@ A simple, user-friendly tool to validate Solana wallet addresses and check if th
 
 1. Open `index.html` in your web browser
 2. Enter a Solana wallet address in the input field
-3. The tool will automatically validate the address as you type
+3. Click "Validate Address" to check if the address is valid
 4. View the validation result with clear success/error messages
 5. Use the "Copy Address" button to copy valid addresses to your clipboard
 
@@ -62,6 +62,8 @@ wallet-checker/
 ├── index.html          # Main HTML file
 ├── styles.css          # CSS styles
 ├── script.js           # JavaScript validation logic
+├── package.json        # Project configuration
+├── .gitignore          # Git ignore file
 └── README.md           # This documentation
 ```
 
