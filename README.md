@@ -2,15 +2,9 @@
 
 A simple, user-friendly tool to validate Solana wallet addresses and check if they are valid base58 strings.
 
-## Features
+## Live demo
 
-- ✅ **Manual validation** - Click to validate addresses
-- 🔍 **Base58 validation** - Ensures addresses contain only valid base58 characters
-- 📏 **Length verification** - Checks for correct 32-byte (44 character) length
-- 🚫 **Invalid character detection** - Warns about confusing characters (0, O, I, l)
-- 📋 **Copy to clipboard** - Easy copying of validated addresses
-- 📱 **Responsive design** - Works on desktop and mobile devices
-- 🎨 **Modern UI** - Clean, intuitive interface with clear feedback
+https://streamable.com/biea96
 
 ## How to Use
 
