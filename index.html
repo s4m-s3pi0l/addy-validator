@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solana Wallet Address Validator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Solana Address Validator</h1>
+            <p>Verify and validate Solana wallet addresses instantly</p>
+        </header>
+        
+        <main>
+            <div class="validator-section">
+                <div class="input-group">
+                    <label for="address-input">Enter Solana Address</label>
+                    <div class="input-container">
+                        <input 
+                            type="text" 
+                            id="address-input" 
+                            placeholder="9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM"
+                            autocomplete="off"
+                        >
+                        <button id="clear-btn" class="clear-btn" title="Clear">×</button>
+                    </div>
+                </div>
+                
+                <div class="validation-result" id="validation-result">
+                    <div class="result-icon" id="result-icon">→</div>
+                    <div class="result-text" id="result-text">Click "Validate Address" to check if the address is valid</div>
+                </div>
+                
+                <div class="action-buttons">
+                    <button id="validate-btn" class="validate-btn">Validate Address</button>
+                    <button id="copy-btn" class="copy-btn" disabled>Copy Address</button>
+                </div>
+            </div>
+            
+            <div class="info-section">
+                <h3>Address Requirements</h3>
+                <ul>
+                    <li>Must be base58 encoded (44 characters)</li>
+                    <li>Cannot contain 0, O, I, or l characters</li>
+                    <li>Must be exactly 32 bytes in length</li>
+                    <li>Uses Solana's standard address format</li>
+                </ul>
+            </div>
+        </main>
+        
+        <footer>
+            <p>Solana Address Validator</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

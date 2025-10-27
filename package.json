@@ -1,0 +1,33 @@
+{
+  "name": "solana-wallet-address-validator",
+  "version": "1.0.0",
+  "description": "A simple tool to validate Solana wallet addresses and check if they are valid base58 strings",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server -p 3000 -o",
+    "dev": "npx live-server --port=3000 --open=index.html"
+  },
+  "keywords": [
+    "solana",
+    "wallet",
+    "address",
+    "validator",
+    "base58",
+    "cryptocurrency",
+    "blockchain"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "live-server": "^1.2.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/solana-wallet-address-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/solana-wallet-address-validator/issues"
+  },
+  "homepage": "https://github.com/yourusername/solana-wallet-address-validator#readme"
+}
